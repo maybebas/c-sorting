@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include"ripassoAlgoritmi.h"
+#include"c_sorting.h"
 
 /* Array di puntatori a funzione, JUMP TABLE */
 void (*doSort[3])(data dt) = {bubbleWrapper,insertionWrapper,selectionWrapper};
